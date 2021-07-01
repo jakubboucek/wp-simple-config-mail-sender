@@ -1,4 +1,4 @@
-=== Super simple & static Mail Sender Configurator ===
+=== Static Mail Sender Configurator ===
 Contributors: jakubboucek
 Tags: wp_mail, sender, mail from, mail sender
 Requires at least: 2.2.0
@@ -6,7 +6,7 @@ Tested up to: 5.7
 Requires PHP: 7.3.0
 Stable tag: trunk
 License: MIT
-License URI: https://github.com/jakubboucek/wp-simple-config-mail-sender/blob/master/LICENSE
+License URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator/blob/master/LICENSE
 
 Simple & static configure WordPress internal mailer "FROM" address.
 

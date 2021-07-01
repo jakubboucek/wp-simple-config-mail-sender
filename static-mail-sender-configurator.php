@@ -5,17 +5,17 @@ declare(strict_types=1);
 namespace JakubBoucek\WpPlugin\MailSenderConfig;
 
 /*
- * Plugin Name: Super simple & static Mail Sender Configurator
- * Plugin URI: https://github.com/jakubboucek/wp-simple-config-mail-sender
+ * Plugin Name: Static Mail Sender Configurator
+ * Plugin URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator
  * Description: Simple & static configure WordPress internal mailer "FROM" address.
  * Author: Jakub Bouček
  * Author URI: https://www.jakub-boucek.cz/
  * Version: 0.9.0
- * Text Domain: wp-simple-config-mail-sender
+ * Text Domain: static-mail-sender-configurator
  * Requires at least: 2.2.0
  */
 
-class MailSenderConfig
+class StaticMailSenderConfigurator
 {
     public const WP_MAIL_FROM_KEY = 'WP_MAIL_FROM';
 
@@ -55,4 +55,4 @@ class MailSenderConfig
     }
 }
 
-MailSenderConfig::register();
+StaticMailSenderConfigurator::register();
