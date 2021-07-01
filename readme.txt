@@ -8,7 +8,7 @@ Stable tag: trunk
 License: MIT
 License URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator/blob/master/LICENSE
 
-Simple & static configure WordPress internal mailer "FROM" address.
+Simple & static configure WordPress internal mailer `From:` address.
 
 This plugin is very simple, it doesn't using database or another storage - just simple put
 constant `WP_MAIL_FROM` to `wp-config.php` or to Environment variable.
