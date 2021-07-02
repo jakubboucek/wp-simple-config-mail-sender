@@ -10,23 +10,23 @@ License URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator/b
 
 Simple & static configure WordPress internal mailer `From:` address.
 
-This plugin is very simple, it doesn't using database or another storage - just simple put
+This plugin is very simple, it doesn't using database or another storage - just simple add the
 constant `WP_MAIL_FROM` to `wp-config.php` or to Environment variable.
 
-Plugin is define this configuration with major priority to set configuration as a default effective value, that means
-any orher plugin with lower priority is applied afterwards and can simple rewrite that values.
-
-Tip: Based to WordPress internal specifics
+Plugin is define this configuration with major priority to set configuration as the **default value**, that means
+any orher plugin with lower priority applied afterwards can simple rewrite that value.
 
 == Example ==
 
-= Using constant in `wp-config-php` file =
+= Using constant in `wp-config.php` file =
+
+Add this row to `wp-config.php` file:
 
 ```php
 const WP_MAIL_FROM = 'noreply@wordpress.domain.tld';
 ```
 
-You can set sender's name by fotmat: `"Name Lastname" <noreply@wordpress.domain.tld>`
+You can define sender's name too by format: `"Name Lastname" <noreply@wordpress.domain.tld>`
 
 = Using Environment variable =
 
