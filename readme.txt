@@ -4,7 +4,7 @@ Tags: wp_mail, sender, mail from, mail sender
 Requires at least: 2.2.0
 Tested up to: 5.7
 Requires PHP: 7.3.0
-Stable tag: trunk
+Stable tag: 0.9.0
 License: MIT
 License URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator/blob/master/LICENSE
 
