@@ -33,6 +33,10 @@ Same principe is available by define Evironment variable `WP_MAIL_FROM`.
 
 == Changelog ==
 
+= 0.9.1 =
+
+Fixes readme doc
+
 = 0.9.0 =
 
 First release
