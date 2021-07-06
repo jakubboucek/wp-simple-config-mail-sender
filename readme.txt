@@ -1,10 +1,10 @@
 === Static Mail Sender Configurator ===
 Contributors: jakubboucek
 Tags: wp_mail, sender, mail from, mail sender
-Requires at least: 2.2.0
+Requires at least: 4.9.6
 Tested up to: 5.7
 Requires PHP: 7.3.0
-Stable tag: 0.9.1
+Stable tag: 0.9.2
 License: MIT
 License URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator/blob/master/LICENSE
 
@@ -33,10 +33,15 @@ Same principe is available by define Evironment variable `WP_MAIL_FROM`.
 
 == Changelog ==
 
+= 0.9.2 =
+
+- Fixes plugin localization requirements
+- Plugin now requires WordPress version at least 4.9.6
+
 = 0.9.1 =
 
-Fixes readme doc
+- Fixes readme documentation only
 
 = 0.9.0 =
 
-First release
+- First release to public WordPress Plugin Directory

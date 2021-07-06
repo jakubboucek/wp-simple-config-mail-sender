@@ -10,9 +10,9 @@ namespace JakubBoucek\WpPlugin\MailSenderConfig;
  * Description: Simple & static configure WordPress internal mailer `From:` address.
  * Author: Jakub Bouček
  * Author URI: https://www.jakub-boucek.cz/
- * Version: 0.9.1
+ * Version: 0.9.2
  * Text Domain: static-mail-sender-configurator
- * Requires at least: 2.2.0
+ * Requires at least: 4.9.6
  */
 
 class StaticMailSenderConfigurator
