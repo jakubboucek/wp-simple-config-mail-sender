@@ -8,7 +8,7 @@ Stable tag: 0.9.2
 License: MIT
 License URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator/blob/master/LICENSE
 
-Simple & static configure WordPress internal mailer `From:` address.
+Simple & static configure WordPress internal mailer sender's (`From:`) address.
 
 This plugin is very simple, it doesn't using database or another storage - you just add the constant `WP_MAIL_FROM` to `wp-config.php` or to Environment variable.
 
@@ -29,7 +29,7 @@ You can define sender's name too by format:
 
 = Using Environment variable: =
 
-Same principe is available by define Evironment variable `WP_MAIL_FROM`.
+Same principe is available by define Environment variable `WP_MAIL_FROM`.
 
 == Changelog ==
 
