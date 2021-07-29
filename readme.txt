@@ -33,6 +33,10 @@ Same principe is available by define Environment variable `WP_MAIL_FROM`.
 
 == Changelog ==
 
+= 0.9.3 =
+
+- Plugin now supports WordPress version 5.8
+
 = 0.9.2 =
 
 - Fixes plugin localization requirements
