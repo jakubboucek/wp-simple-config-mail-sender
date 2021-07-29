@@ -8,11 +8,14 @@ namespace JakubBoucek\WpPlugin\MailSenderConfig;
  * Plugin Name: Static Mail Sender Configurator
  * Plugin URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator
  * Description: Simple & static configure WordPress internal mailer sender's (`From:`) address.
+ * Version: 0.9.2
+ * Requires at least: 4.9.6
+ * Requires PHP: 7.3.0
  * Author: Jakub Bouček
  * Author URI: https://www.jakub-boucek.cz/
- * Version: 0.9.2
+ * License: MIT
+ * License URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator/blob/master/LICENSE
  * Text Domain: static-mail-sender-configurator
- * Requires at least: 4.9.6
  */
 
 class StaticMailSenderConfigurator
