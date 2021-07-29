@@ -16,6 +16,7 @@ namespace JakubBoucek\WpPlugin\MailSenderConfig;
  * License: MIT
  * License URI: https://github.com/jakubboucek/wp-static-mail-sender-configurator/blob/master/LICENSE
  * Text Domain: static-mail-sender-configurator
+ * Update URI: https://wordpress.org/plugins/static-mail-sender-configurator/
  */
 
 class StaticMailSenderConfigurator
